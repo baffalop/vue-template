@@ -1,5 +1,6 @@
 {
-  "name": "sttv",
+  "name": "hcn",
+  "author": "Nikita Gaidakov",
   "version": "0.0.0",
   "scripts": {
     "dev": "cross-env NODE_ENV=development vite",
