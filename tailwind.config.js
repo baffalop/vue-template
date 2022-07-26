@@ -1,12 +1,12 @@
 module.exports = {
-  mode: "jit",
+  mode: 'jit',
   content: [
-    "./index.html",
-    "./src/**/*.{js,ts,vue}",
+    './index.html',
+    './src/**/*.{js,ts,vue}',
   ],
   theme: {
     extend: {
-      fontFamily: ['-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Open Sans', 'Helvetica Neue', 'sans-serif']
+      fontFamily: ['Inter', 'Avenir', 'Helvetica', '-apple-system', 'BlinkMacSystemFont', 'sans-serif']
     },
   },
   plugins: [],
