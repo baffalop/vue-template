@@ -1,9 +1,5 @@
-import './hmr';
-import './main.css';
-import App from './App.svelte'
+import { createApp } from 'vue'
+import './style.css'
+import App from './App.vue'
 
-const app = new App({
-  target: document.body
-})
-
-export default app
+createApp(App).mount('#app')
