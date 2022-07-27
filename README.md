@@ -1,34 +1,27 @@
-STTV - Svelte / Typescript / Tailwind / Vite Template
-=====================================================
+# Vue 3 + Vite + Typescript + Tailwind
 
-Get up and running with Svelte, Typescript, Tailwind and Vite. Also includes testing setup using Jest.
+Very simple template for Vue 3, based on `pnpm create vite --template vue-ts`, with added Tailwind.
 
-Installation
-------------
+## Installation
 
 ```
-npx degit "srmullen/sttv#main" my_app
-cd my_app
-npm install
+pnpm i
 ```
 
-Scripts
--------
+## Scripts
 
 ### Start a development server
 
-`npm run dev`
-
-### Run tests
-
-`npm run test`
-or
-`npm run test:watch`
+`pnpm start`
 
 ### Build the application
 
-`npm run build`
+`pnpm build`
 
-### Serve the application
+### Typecheck
 
-`npm run serve`
+`pnpm check` (run as part of `build`)
+
+### Preview the build
+
+`pnpm preview`
