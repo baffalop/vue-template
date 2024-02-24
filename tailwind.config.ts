@@ -8,7 +8,9 @@ export default {
   ],
   theme: {
     extend: {
-      fontFamily: ['Inter', 'Avenir', 'Helvetica', '-apple-system', 'BlinkMacSystemFont', 'sans-serif']
+      fontFamily: {
+        sans: ['Inter', 'Avenir', 'Helvetica', '-apple-system', 'BlinkMacSystemFont', 'sans-serif']
+      },
     },
   },
   plugins: [],
