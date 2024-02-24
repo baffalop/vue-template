@@ -1,4 +1,6 @@
-module.exports = {
+import { Config } from 'tailwindcss'
+
+export default {
   mode: 'jit',
   content: [
     './index.html',
@@ -10,4 +12,4 @@ module.exports = {
     },
   },
   plugins: [],
-}
+} satisfies Config
